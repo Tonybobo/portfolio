@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/style.css" />
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+
+		<!-- Swiper CSS -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper/swiper-bundle.min.css"
+		/>
+
+		<title>Portfolio</title>
+	</head>
+	<body>
+		<header class="header" id="header">
+			<nav class="nav container">
+				<a href="#" class="nav__logo">Bo Chuang Jie</a>
+
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list grid">
+						<li class="nav__item">
+							<a href="#home" class="nav__link active-link">
+								<i class="fas fa-house-user nav__icon"></i> Home
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#about" class="nav__link">
+								<i class="fas fa-user-tie nav__icon"></i> About Me
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#skills" class="nav__link">
+								<i class="fas fa-file-word nav__icon"></i>Skills
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#qualification" class="nav__link">
+								<i class="fas fa-user-graduate nav__icon"></i>Qualification
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#portfolio" class="nav__link">
+								<i class="fas fa-project-diagram nav__icon"></i> Portfolio
+							</a>
+						</li>
+						<li class="nav__item">
+							<a href="#footer" class="nav__link">
+								<i class="fas fa-sms nav__icon"></i> Contacts
+							</a>
+						</li>
+					</ul>
+					<i class="fas fa-times nav__close nav__icon" id="nav-close"></i>
+				</div>
+				<div class="nav__btns">
+					<!-- Theme Change button -->
+					<i class="far fa-moon change-theme" id="theme-button"></i>
+					<div class="nav__toggle" id="nav-toggle">
+						<i class="fas fa-th-large nav__icon"></i>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- Main Content -->
+		<main class="main">
+			<!--Home-->
+			<section class="home section" id="home">
+				<div class="home__container container grid">
+					<div class="home__content grid">
+						<div class="home__social">
+							<a
+								href="https://www.linkedin.com/in/chuang-jie-bo-5b6999152/"
+								target="_blank"
+								class="home__social-icon"
+							>
+								<i class="fab fa-linkedin"></i>
+							</a>
+
+							<a
+								href="https://www.facebook.com/bo.c.jie/"
+								target="_blank"
+								class="home__social-icon"
+							>
+								<i class="fab fa-facebook-square"></i>
+							</a>
+
+							<a
+								href="https://github.com/Tonybobo"
+								target="_blank"
+								class="home__social-icon"
+							>
+								<i class="fab fa-github"></i>
+							</a>
+						</div>
+						<div class="home__img">
+							<image class="home-img" src="assets/image/Profile.jpg" />
+						</div>
+						<div class="home__data">
+							<h1 class="home__title"> Hi, I am Tony </h1>
+							<h3 class="home__subtitle"> Software developer </h3>
+							<p class="home__description">
+								Experienced in front-end and backend of web development.
+							</p>
+							<a href="#footer" class="button button--flex">
+								Contact Me<i class="far fa-hand-point-right button__icon"></i>
+							</a>
+						</div>
+					</div>
+					<div class="home__scroll">
+						<a href="#about" class="home__scroll-button button--flex">
+							<i class="fas fa-mouse home__scroll-mouse"></i>
+							<span class="home__scroll-name">Scroll down</span>
+							<i class="fas fa-arrow-down home__scroll-arrow"></i>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- About -->
+
+			<section class="about section" id="about">
+				<h2 class="section__title">About Me</h2>
+				<span class="section__subtitle">My introduction</span>
+				<div class="about__container container grid">
+					<img
+						src="assets/image/full-body.jpg"
+						alt="about"
+						class="about__img"
+					/>
+					<div class="about__data">
+						<p class="about__description">
+							Web developer, with extensive knowledge and years of experience,
+							working in web technologies and Ui / Ux design, delivering quality
+							work.
+						</p>
+						<div class="about__info">
+							<div>
+								<span class="about__info-title"> 01+ </span>
+								<span class="about__info-name"
+									>Years <br />
+									experience</span
+								>
+							</div>
+							<div>
+								<span class="about__info-title"> 05 </span>
+								<span class="about__info-name"
+									>Completed <br />
+									project</span
+								>
+							</div>
+							<div>
+								<span class="about__info-title"> 01 </span>
+								<span class="about__info-name"
+									>Companies <br />
+									Worked</span
+								>
+							</div>
+						</div>
+						<div class="about__buttons">
+							<a
+								download=""
+								href="assets/Resume.pdf"
+								class="button button--flex"
+							>
+								Download CV
+								<i class="fas fa-download button__icon"></i
+							></a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Skills -->
+
+			<section class="skills section" id="skills">
+				<h2 class="section__title"> Skills </h2>
+				<span class="section__subtitle"> My technical level </span>
+				<div class="skills__container container grid">
+					<!-- Skill 1 -->
+					<div class="skills__content skills__close">
+						<div class="skills__header">
+							<i class="fas fa-code skills__icon"></i>
+							<div>
+								<h1 class="skills__titles"> Frontend Developer </h1>
+								<span class="skills__subtitle">More than 1 years</span>
+							</div>
+							<i class="fas fa-angle-down skills__arrow"></i>
+						</div>
+						<div class="skills__list grid">
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">HTML</h3>
+									<span class="skills__number">70%</span>
+								</div>
+								<div class="skills__bar">
+									<span class="skills__percentage skills__html"> </span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">CSS</h3>
+									<span class="skills__number">60%</span>
+								</div>
+								<div class="skills__bar">
+									<span class="skills__percentage skills__css"> </span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">JavaScript</h3>
+									<span class="skills__number">80%</span>
+								</div>
+								<div class="skills__bar">
+									<span class="skills__percentage skills__js"> </span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">ReactJs</h3>
+									<span class="skills__number">80%</span>
+								</div>
+								<div class="skills__bar">
+									<span class="skills__percentage skills__react"> </span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Skill 2 -->
+					<div class="skills__content skills__close">
+						<div class="skills__header">
+							<i class="fas fa-server skills__icon"></i>
+							<div>
+								<h1 class="skills__titles"> Backend Developer </h1>
+								<span class="skills__subtitle">More than 1 years</span>
+							</div>
+							<i class="fas fa-angle-down skills__arrow"></i>
+						</div>
+						<div class="skills__list grid">
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">Node</h3>
+									<span class="skills__number">70%</span>
+								</div>
+								<div class="skills__bar">
+									<span class="skills__percentage skills__node"> </span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">MongoDB</h3>
+									<span class="skills__number">60%</span>
+								</div>
+								<div class="skills__bar">
+									<span class="skills__percentage skills__mongo"> </span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">Firebase</h3>
+									<span class="skills__number">80%</span>
+								</div>
+								<div class="skills__bar">
+									<span class="skills__percentage skills__firebase"> </span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">TypeOrm</h3>
+									<span class="skills__number">60%</span>
+								</div>
+								<div class="skills__bar">
+									<span class="skills__percentage skills__typeorm"> </span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<div class="skills__titles">
+									<h3 class="skills__name">Express</h3>
+									<span class="skills__number">80%</span>
+								</div>
+								<div class="skills__bar">
+									<span class="skills__percentage skills__express"> </span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Qualification -->
+
+			<section class="qualification section" id="qualification">
+				<h2 class="section__title"> Qualification </h2>
+				<span class="section__subtitle">My personal Journey</span>
+				<div class="qualification__container container">
+					<div class="qualification__tabs">
+						<div
+							class="qualification__button qualification__active button--flex"
+							data-target="#education"
+						>
+							<i class="fas fa-graduation-cap qualification__icon"></i>Education
+						</div>
+						<div class="qualification__button button--flex" data-target="#work">
+							<i class="fas fa-briefcase qualification__icon"></i>Work
+						</div>
+					</div>
+
+					<div class="qualification__sections">
+						<!-- Qualification 1 -->
+						<div
+							class="qualification__content qualification__active"
+							data-content
+							id="education"
+						>
+							<!-- Education 1 -->
+							<div class="qualification__data">
+								<div>
+									<h3 class="qualification__title">
+										Degree in Electrical Engineering Honours(Distinction)
+									</h3>
+									<span class="qualification__subtitle">
+										Nanyang Technologies University
+									</span>
+									<div class="qualification__calendar">
+										<i class="far fa-calendar-times"></i>
+										2017 - 2021
+									</div>
+								</div>
+								<div>
+									<span class="qualification__rounder"></span>
+									<span class="qualification__line"></span>
+								</div>
+							</div>
+							<!-- Education 2 -->
+							<div class="qualification__data">
+								<div></div>
+								<div>
+									<span class="qualification__rounder"></span>
+									<!-- <span class="qualification__line"></span> -->
+								</div>
+								<div>
+									<h3 class="qualification__title">
+										Diploma in Electrical Engineering
+									</h3>
+									<span class="qualification__subtitle">
+										Singapore Polytechnic
+									</span>
+									<div class="qualification__calendar">
+										<i class="far fa-calendar-times"></i>
+										2012 - 2015
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Qualification 2 -->
+
+						<div class="qualification__content" data-content id="work">
+							<!-- Work 1 -->
+							<div class="qualification__data">
+								<div>
+									<h3 class="qualification__title">
+										Chemical Testing Technician
+									</h3>
+									<span class="qualification__subtitle">
+										Agilent Technologies
+									</span>
+									<div class="qualification__calendar">
+										<i class="far fa-calendar-times"></i>
+										2019 - 2021
+									</div>
+								</div>
+								<div>
+									<span class="qualification__rounder"></span>
+									<span class="qualification__line"></span>
+								</div>
+							</div>
+							<!-- Work 2 -->
+							<div class="qualification__data">
+								<div></div>
+								<div>
+									<span class="qualification__rounder"></span>
+									<!-- <span class="qualification__line"></span> -->
+								</div>
+								<div>
+									<h3 class="qualification__title">
+										Manufacturing Technician
+									</h3>
+									<span class="qualification__subtitle">
+										Agilent Technologies
+									</span>
+									<div class="qualification__calendar">
+										<i class="far fa-calendar-times"></i>
+										2015 - 2019
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Portfolio -->
+			<section class="portfolio section" id="portfolio">
+				<h2 class="section__title"> Portfolio </h2>
+				<span class="section__subtitle">Most Recent Work</span>
+
+				<div class="portfolio__container container swiper-container mySwiper">
+					<div class="swiper-wrapper">
+						<!-- Portfolio 1 -->
+						<div class="portfolio__content grid swiper-slide">
+							<img
+								src="assets/image/AmazonClone.JPG"
+								alt="Amazon-clone"
+								class="portfolio__img"
+							/>
+							<div class="portfolio__data">
+								<h3 class="portfolio__title">Amazon-Clone</h3>
+								<p class="portfolio__description">
+									A Amazon-clone implemented with React and Stripe Api
+								</p>
+								<a
+									href="https://clone-a04c2.web.app/"
+									target="_blank"
+									class="button button--flex button--small portfolio__button"
+								>
+									Demo
+									<i class="fas fa-arrow-circle-right button__icon"></i>
+								</a>
+							</div>
+						</div>
+						<!-- Portfolio 2  -->
+						<div class="portfolio__content grid swiper-slide">
+							<img
+								src="assets/image/NetflixClone.JPG"
+								alt="Netflix-clone"
+								class="portfolio__img"
+							/>
+							<div class="portfolio__data">
+								<h3 class="portfolio__title">Netflix-Clone</h3>
+								<p class="portfolio__description">
+									A Netflix-clone implemented with React to show the most recent
+									and popular trailer
+								</p>
+								<a
+									href="https://net-flix-clone-1647a.web.app/"
+									target="_blank"
+									class="button button--flex button--small portfolio__button"
+								>
+									Demo
+									<i class="fas fa-arrow-circle-right button__icon"></i>
+								</a>
+							</div>
+						</div>
+						<!-- Portfolio 3  -->
+						<div class="portfolio__content grid swiper-slide">
+							<img
+								src="assets/image/RedditClone.JPG"
+								alt="Reddit-clone"
+								class="portfolio__img"
+							/>
+							<div class="portfolio__data">
+								<h3 class="portfolio__title">Reddit-Clone</h3>
+								<p class="portfolio__description">
+									A Reddit-clone implemented with NextJs as Front-end and
+									Express, typeorm , postgres as back-end
+								</p>
+								<a
+									href="http://188.166.218.74/"
+									target="_blank"
+									class="button button--flex button--small portfolio__button"
+								>
+									Demo
+									<i class="fas fa-arrow-circle-right button__icon"></i>
+								</a>
+							</div>
+						</div>
+
+						<!-- Portfolio 4  -->
+						<div class="portfolio__content grid swiper-slide">
+							<img
+								src="assets/image/SocialApe.JPG"
+								alt="socialape"
+								class="portfolio__img"
+							/>
+							<div class="portfolio__data">
+								<h3 class="portfolio__title">SocialApe</h3>
+								<p class="portfolio__description">
+									A Social Website implemented with React as Front-end and
+									Firebase as back-end
+								</p>
+								<a
+									href="https://socialape-9a836.web.app/"
+									target="_blank"
+									class="button button--flex button--small portfolio__button"
+								>
+									Demo
+									<i class="fas fa-arrow-circle-right button__icon"></i>
+								</a>
+							</div>
+						</div>
+
+						<!-- Portfolio 5  -->
+						<div class="portfolio__content grid swiper-slide">
+							<img
+								src="assets/image/SpotifyClone.JPG"
+								alt="Spotify-clone"
+								class="portfolio__img"
+							/>
+							<div class="portfolio__data">
+								<h3 class="portfolio__title">Spotify-Clone</h3>
+								<p class="portfolio__description">
+									A Spotify-clone implemented with React and spotify Api to
+									create a music-streaming website
+								</p>
+								<a
+									href="https://spotify-clone-b2805.web.app/"
+									target="_blank"
+									class="button button--flex button--small portfolio__button"
+								>
+									Demo
+									<i class="fas fa-arrow-circle-right button__icon"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-next">
+						<i class="fas fa-angle-right swiper-portfolio-icon"></i>
+					</div>
+					<div class="swiper-button-prev"
+						><i class="fas fa-angle-left swiper-portfolio-icon"></i
+					></div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+
+			<!-- Footer -->
+			<footer class="footer" id="footer">
+				<div class="footer__bg">
+					<div class="footer__container container grid">
+						<div>
+							<h1 class="footer__title"> Bo Chuang Jie </h1>
+							<span class="footer__subtitle">Software Developer</span>
+							<p class="footer__subtitle">
+								Contact me at bochuangjie@gmail.com</p
+							>
+						</div>
+						<ul class="footer__links">
+							<li>
+								<a href="#home" class="footer__link">Home</a>
+							</li>
+							<li>
+								<a href="#about" class="footer__link">About</a>
+							</li>
+							<li>
+								<a href="#portfolio" class="footer__link"> Portfolio</a>
+							</li>
+						</ul>
+						<div class="footer__socials">
+							<a
+								target="_blank"
+								href="https://www.linkedin.com/in/chuang-jie-bo-5b6999152/"
+								class="footer__social"
+							>
+								<i class="fab fa-linkedin"></i>
+							</a>
+							<a
+								target="_blank"
+								href="https://www.facebook.com/bo.c.jie/"
+								class="footer__social"
+							>
+								<i class="fab fa-facebook-square"></i>
+							</a>
+							<a
+								target="_blank"
+								href="https://github.com/Tonybobo"
+								class="footer__social"
+							>
+								<i class="fab fa-github"></i>
+							</a>
+						</div>
+					</div>
+					<p class="footer__copy"> &#169; Bo Chuang Jie All right Reserved</p>
+				</div>
+			</footer>
+
+			<a href="#home" class="scrollup" id="scroll-up">
+				<i class="fas fa-arrow-up scrollup__icon"></i>
+			</a>
+		</main>
+	</body>
+	<!-- Swiper Js -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="assets/main.js"></script>
+</html>
