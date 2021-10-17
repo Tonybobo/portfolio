@@ -12,10 +12,9 @@
 		/>
 
 		<!-- Swiper CSS -->
-		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
 		<link
 			rel="stylesheet"
-			href="https://unpkg.com/swiper/swiper-bundle.min.css"
+			href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
 		/>
 
 		<title>Portfolio</title>
@@ -411,133 +410,134 @@
 			<section class="portfolio section" id="portfolio">
 				<h2 class="section__title"> Portfolio </h2>
 				<span class="section__subtitle">Most Recent Work</span>
+				<div>
+					<div class="portfolio__container container swiper-container swiper">
+						<div class="swiper-wrapper">
+							<!-- Portfolio 1 -->
+							<div class="portfolio__content grid swiper-slide">
+								<img
+									src="assets/image/AmazonClone.JPG"
+									alt="Amazon-clone"
+									class="portfolio__img"
+								/>
+								<div class="portfolio__data">
+									<h3 class="portfolio__title">Amazon-Clone</h3>
+									<p class="portfolio__description">
+										A Amazon-clone implemented with React and Stripe Api
+									</p>
+									<a
+										href="https://clone-a04c2.web.app/"
+										target="_blank"
+										class="button button--flex button--small portfolio__button"
+									>
+										Demo
+										<i class="fas fa-arrow-circle-right button__icon"></i>
+									</a>
+								</div>
+							</div>
+							<!-- Portfolio 2  -->
+							<div class="portfolio__content grid swiper-slide">
+								<img
+									src="assets/image/NetflixClone.JPG"
+									alt="Netflix-clone"
+									class="portfolio__img"
+								/>
+								<div class="portfolio__data">
+									<h3 class="portfolio__title">Netflix-Clone</h3>
+									<p class="portfolio__description">
+										A Netflix-clone implemented with React to show the most
+										recent and popular trailer
+									</p>
+									<a
+										href="https://net-flix-clone-1647a.web.app/"
+										target="_blank"
+										class="button button--flex button--small portfolio__button"
+									>
+										Demo
+										<i class="fas fa-arrow-circle-right button__icon"></i>
+									</a>
+								</div>
+							</div>
+							<!-- Portfolio 3  -->
+							<div class="portfolio__content grid swiper-slide">
+								<img
+									src="assets/image/RedditClone.JPG"
+									alt="Reddit-clone"
+									class="portfolio__img"
+								/>
+								<div class="portfolio__data">
+									<h3 class="portfolio__title">Reddit-Clone</h3>
+									<p class="portfolio__description">
+										A Reddit-clone implemented with NextJs as Front-end and
+										Express, typeorm , postgres as back-end
+									</p>
+									<a
+										href="http://188.166.218.74/"
+										target="_blank"
+										class="button button--flex button--small portfolio__button"
+									>
+										Demo
+										<i class="fas fa-arrow-circle-right button__icon"></i>
+									</a>
+								</div>
+							</div>
 
-				<div class="portfolio__container container swiper-container mySwiper">
-					<div class="swiper-wrapper">
-						<!-- Portfolio 1 -->
-						<div class="portfolio__content grid swiper-slide">
-							<img
-								src="assets/image/AmazonClone.JPG"
-								alt="Amazon-clone"
-								class="portfolio__img"
-							/>
-							<div class="portfolio__data">
-								<h3 class="portfolio__title">Amazon-Clone</h3>
-								<p class="portfolio__description">
-									A Amazon-clone implemented with React and Stripe Api
-								</p>
-								<a
-									href="https://clone-a04c2.web.app/"
-									target="_blank"
-									class="button button--flex button--small portfolio__button"
-								>
-									Demo
-									<i class="fas fa-arrow-circle-right button__icon"></i>
-								</a>
+							<!-- Portfolio 4  -->
+							<div class="portfolio__content grid swiper-slide">
+								<img
+									src="assets/image/SocialApe.JPG"
+									alt="socialape"
+									class="portfolio__img"
+								/>
+								<div class="portfolio__data">
+									<h3 class="portfolio__title">SocialApe</h3>
+									<p class="portfolio__description">
+										A Social Website implemented with React as Front-end and
+										Firebase as back-end
+									</p>
+									<a
+										href="https://socialape-9a836.web.app/"
+										target="_blank"
+										class="button button--flex button--small portfolio__button"
+									>
+										Demo
+										<i class="fas fa-arrow-circle-right button__icon"></i>
+									</a>
+								</div>
 							</div>
-						</div>
-						<!-- Portfolio 2  -->
-						<div class="portfolio__content grid swiper-slide">
-							<img
-								src="assets/image/NetflixClone.JPG"
-								alt="Netflix-clone"
-								class="portfolio__img"
-							/>
-							<div class="portfolio__data">
-								<h3 class="portfolio__title">Netflix-Clone</h3>
-								<p class="portfolio__description">
-									A Netflix-clone implemented with React to show the most recent
-									and popular trailer
-								</p>
-								<a
-									href="https://net-flix-clone-1647a.web.app/"
-									target="_blank"
-									class="button button--flex button--small portfolio__button"
-								>
-									Demo
-									<i class="fas fa-arrow-circle-right button__icon"></i>
-								</a>
-							</div>
-						</div>
-						<!-- Portfolio 3  -->
-						<div class="portfolio__content grid swiper-slide">
-							<img
-								src="assets/image/RedditClone.JPG"
-								alt="Reddit-clone"
-								class="portfolio__img"
-							/>
-							<div class="portfolio__data">
-								<h3 class="portfolio__title">Reddit-Clone</h3>
-								<p class="portfolio__description">
-									A Reddit-clone implemented with NextJs as Front-end and
-									Express, typeorm , postgres as back-end
-								</p>
-								<a
-									href="http://188.166.218.74/"
-									target="_blank"
-									class="button button--flex button--small portfolio__button"
-								>
-									Demo
-									<i class="fas fa-arrow-circle-right button__icon"></i>
-								</a>
-							</div>
-						</div>
 
-						<!-- Portfolio 4  -->
-						<div class="portfolio__content grid swiper-slide">
-							<img
-								src="assets/image/SocialApe.JPG"
-								alt="socialape"
-								class="portfolio__img"
-							/>
-							<div class="portfolio__data">
-								<h3 class="portfolio__title">SocialApe</h3>
-								<p class="portfolio__description">
-									A Social Website implemented with React as Front-end and
-									Firebase as back-end
-								</p>
-								<a
-									href="https://socialape-9a836.web.app/"
-									target="_blank"
-									class="button button--flex button--small portfolio__button"
-								>
-									Demo
-									<i class="fas fa-arrow-circle-right button__icon"></i>
-								</a>
+							<!-- Portfolio 5  -->
+							<div class="portfolio__content grid swiper-slide">
+								<img
+									src="assets/image/SpotifyClone.JPG"
+									alt="Spotify-clone"
+									class="portfolio__img"
+								/>
+								<div class="portfolio__data">
+									<h3 class="portfolio__title">Spotify-Clone</h3>
+									<p class="portfolio__description">
+										A Spotify-clone implemented with React and spotify Api to
+										create a music-streaming website
+									</p>
+									<a
+										href="https://spotify-clone-b2805.web.app/"
+										target="_blank"
+										class="button button--flex button--small portfolio__button"
+									>
+										Demo
+										<i class="fas fa-arrow-circle-right button__icon"></i>
+									</a>
+								</div>
 							</div>
 						</div>
-
-						<!-- Portfolio 5  -->
-						<div class="portfolio__content grid swiper-slide">
-							<img
-								src="assets/image/SpotifyClone.JPG"
-								alt="Spotify-clone"
-								class="portfolio__img"
-							/>
-							<div class="portfolio__data">
-								<h3 class="portfolio__title">Spotify-Clone</h3>
-								<p class="portfolio__description">
-									A Spotify-clone implemented with React and spotify Api to
-									create a music-streaming website
-								</p>
-								<a
-									href="https://spotify-clone-b2805.web.app/"
-									target="_blank"
-									class="button button--flex button--small portfolio__button"
-								>
-									Demo
-									<i class="fas fa-arrow-circle-right button__icon"></i>
-								</a>
-							</div>
+						<div class="swiper-button-next">
+							<i class="fas fa-angle-right swiper-portfolio-icon"></i>
 						</div>
+						<div class="swiper-button-prev"
+							><i class="fas fa-angle-left swiper-portfolio-icon"></i
+						></div>
+						<div class="swiper-pagination"></div>
 					</div>
-					<div class="swiper-button-next">
-						<i class="fas fa-angle-right swiper-portfolio-icon"></i>
-					</div>
-					<div class="swiper-button-prev"
-						><i class="fas fa-angle-left swiper-portfolio-icon"></i
-					></div>
-					<div class="swiper-pagination"></div>
 				</div>
 			</section>
 
@@ -597,7 +597,6 @@
 		</main>
 	</body>
 	<!-- Swiper Js -->
-	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 	<script src="assets/main.js"></script>
 </html>

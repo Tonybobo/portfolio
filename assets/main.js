@@ -59,7 +59,7 @@ tabs.forEach((tab) => {
 
 // Swiper Js
 
-var swiper = new Swiper('.mySwiper', {
+var swiper = new Swiper('.swiper-container', {
 	cssMode: true,
 	loop: true,
 	navigation: {
